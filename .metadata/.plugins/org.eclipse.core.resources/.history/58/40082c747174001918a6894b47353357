@@ -1,0 +1,28 @@
+package com.minyeong.java.study;
+
+import java.util.Scanner;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name;
+		int kor,eng,mat,sum;
+		double avg;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		name = scan.next();
+		kor = scan.nextInt();
+		eng = scan.nextInt();
+		mat = scan.nextInt();
+		
+		sum = kor+eng+mat;
+		avg=sum/3;
+		
+		//System.out.println();
+
+	}
+
+}
