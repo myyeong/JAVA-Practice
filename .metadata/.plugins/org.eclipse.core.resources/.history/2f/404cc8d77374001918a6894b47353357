@@ -26,9 +26,9 @@ public class Test1 {
 		sum = kor+eng+mat;
 		avg=sum/3;
 		
-		System.out.println("name : "+name);
-		System.out.println("sum : "+sum);
-		System.out.println("avg : "+avg);
+		System.out.print("name : "+name);
+		System.out.print("sum : "+sum);
+		System.out.print("avg : "+avg);
 		
 	}
 
